@@ -5,7 +5,7 @@ const appThemeSlice = createSlice({
     initialState: {isDarkMode: false},
     reducers: {
         toggleTheme(state, action) {
-            state.isDarkMode = !state.isDarkMode;
+            state.isDarkMode = !stat.isDarkMode;
         },
     }
 });

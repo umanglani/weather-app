@@ -7,8 +7,7 @@ export const LightColors = {
     MidGray: '#a3a6ab',
     AppForeColor: '#000',
 
-    GrdientColor1: '#94bbe9',
-    GrdientColor2: '#eeaeca',
+    GradientColors: [ '#fff', '#8996cc', '#8295e3']
 };
 
 export const DarkColors = {
@@ -18,8 +17,7 @@ export const DarkColors = {
     MidGray: '#a3a6ab',
     AppForeColor: '#fff',
 
-    GrdientColor1: '#1e2d3e',
-    GrdientColor2: '#4b192f',
+    GradientColors: ['#000', '#9183d6', '#1d0d6b']
 };
 
 export const Colors = {
@@ -90,7 +88,15 @@ export const globalStyles = StyleSheet.create({
         fontFamily: 'Montserrat_700Bold',
     },
     regularText: {
+        fontSize: 20,
+        fontFamily: 'Montserrat_400Regular',
+    },
+    smallText: {
         fontSize: 15,
+        fontFamily: 'Montserrat_400Regular',
+    },
+    smallerText: {
+        fontSize: 12,
         fontFamily: 'Montserrat_400Regular',
     },
     gray: {

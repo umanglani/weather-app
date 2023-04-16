@@ -27,8 +27,8 @@ const Header = props => {
       </View>
       <View style={[globalStyles.flex1, globalStyles.vEnd]}>
         <Switch
-          trackColor={{true: LightColors.GrdientColor1, false: LightColors.GrdientColor2}}
-          thumbColor={isEnabled ? DarkColors.GrdientColor2 : DarkColors.GrdientColor1}
+          trackColor={{true: LightColors.GradientColor1, false: LightColors.GradientColor2}}
+          thumbColor={isEnabled ? DarkColors.GradientColor2 : DarkColors.GradientColor1}
           ios_backgroundColor='#3e3e3e'
           value={isDarkMode}
           onValueChange={switchTheme}>

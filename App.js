@@ -7,7 +7,6 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { Provider } from 'react-redux';
 import { store } from './src/store/appstore';
 
-
 export default function App() {
 
   const [fontsLoaded] = useFonts({
